@@ -1,0 +1,482 @@
+{
+    "[latex]": {
+        "editor.formatOnPaste": false,
+        "editor.suggestSelection": "recentlyUsedByPrefix",
+        "editor.autoIndent": "none"
+    },
+    "[tex]": {
+        "editor.formatOnPaste": false,
+        "editor.suggestSelection": "recentlyUsedByPrefix",
+        "editor.autoIndent": "none"
+    },
+    "[matlab]": {
+        "editor.fontFamily": "Envy Code R VS",
+        "editor.fontSize": 15
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": true,
+        "editor.wordBasedSuggestions": false,
+        "editor.snippetSuggestions": "top",
+        // "editor.wordWrap": "wordWrapColumn",
+        // "editor.wordWrapColumn": 85
+    },
+    "[python]": {
+        "editor.fontFamily": "Envy Code R VS",
+        "editor.fontSize": 15
+    },
+    "cSpell.allowCompoundWords": true,
+    "cSpell.diagnosticLevel": "Warning",
+    "cSpell.enableFiletypes": [
+        "html",
+        "jupyter",
+        "markdown",
+        "php",
+        "plaintext",
+        "typescript"
+    ],
+    "cSpell.userWords": [
+        "Coursera",
+        "Frobenius",
+        "Galerkin",
+        "Krylov",
+        "Lipschitz",
+        "Neumann",
+        "Petrov",
+        "Riesz",
+        "Schwarz",
+        "anonymized",
+        "ansatz",
+        "approximator",
+        "approximators",
+        "coercivity",
+        "convolutional",
+        "deconvolution",
+        "diagonalization",
+        "discretization",
+        "discretization's",
+        "discretizations",
+        "discretized",
+        "ensembled",
+        "ensembling",
+        "functionals",
+        "ifft",
+        "injective",
+        "linearization",
+        "linearizations",
+        "linearize",
+        "mathbb",
+        "mathjax",
+        "numpy",
+        "parametrizations",
+        "posteriori",
+        "scaomath",
+        "simplicial",
+        "spacially",
+        "supremum",
+        "surjective",
+        "surjectivity",
+        "tridiagonal",
+        "unnormalized",
+        "vectorize"
+    ],
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.fontFamily": "Fira Code Medium, monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "editor.minimap.side": "left",
+    "editor.quickSuggestions": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.tokenColorCustomizations": {
+        "[Atom One Dark]": {
+            "numbers": "#59bb59",
+            "textMateRules": [
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#757b8e"
+                    }
+                },
+                {
+                    "scope": "variable.parameter.function.language.python",
+                    "settings": {
+                        "foreground": "#59bb59"
+                    }
+                },
+                {
+                    "scope": "variable.parameter.function-call.python",
+                    "settings": {
+                        "foreground": "#caaf71"
+                    }
+                },
+                {
+                    "scope": "meta.attribute.python",
+                    "settings": {
+                        "foreground": "#8caeec"
+                    }
+                },
+                {
+                    "scope": "constant.other",
+                    "settings": {
+                        "foreground": "#BEC7D8"
+                    }
+                },
+                {
+                    "scope": "invalid.deprecated",
+                    "settings": {
+                        "foreground": "#9052ab"
+                    }
+                },
+                {
+                    "scope": [
+                        "source.latex",
+                        "keyword.control"
+                    ],
+                    "settings": {
+                        "foreground": "#009fa1"
+                    }
+                },
+                {
+                    "scope": "support.class.math.latex",
+                    "settings": {
+                        "foreground": "#749ab5"
+                    }
+                },
+                {
+                    "scope": "support.class.math.block.tex",
+                    "settings": {
+                        "foreground": "#87aac3"
+                    }
+                },
+                {
+                    "scope": "constant.character.math.tex",
+                    "settings": {
+                        "foreground": "#1984cf"
+                    }
+                },
+                {
+                    "scope": "support.class.math.block.environment.latex",
+                    "settings": {
+                        "foreground": "#749ab5"
+                    }
+                },
+                {
+                    "scope": "meta.function.environment.list.latex",
+                    "settings": {
+                        "foreground": "#91b6c5"
+                    }
+                },
+                {
+                    "scope": "constant.other.general.math.tex",
+                    "settings": {
+                        "foreground": "#1984cf"
+                    }
+                },
+                {
+                    "scope": "constant.other.math.tex",
+                    "settings": {
+                        "foreground": "#1984cf"
+                    }
+                },
+                {
+                    "scope": "variable.parameter.function.latex",
+                    "settings": {
+                        "foreground": "#db5f26"
+                    }
+                },
+                {
+                    "scope": "variable.parameter.definition.label.latex",
+                    "settings": {
+                        "foreground": "#029b02"
+                    }
+                },
+                {
+                    "scope": "constant.other.reference.label.latex",
+                    "settings": {
+                        "foreground": "#029b02"
+                    }
+                },
+                {
+                    "scope": "constant.other.reference.citation.latex",
+                    "settings": {
+                        "foreground": "#ab69bb"
+                    }
+                },
+                {
+                    "scope": "markup.quote.markdown",
+                    "settings": {
+                        "foreground": "#8e95a0"
+                    }
+                },
+                {
+                    "scope": "comment.line.percentage.tex",
+                    "settings": {
+                        "foreground": "#676f83"
+                    }
+                },
+                {
+                    "scope": "comment.line.percentage.matlab",
+                    "settings": {
+                        "foreground": "#676f83"
+                    }
+                },
+                {
+                    "scope": "comment.line.double-percentage.matlab",
+                    "settings": {
+                        "foreground": "#3baf46",
+                        "fontStyle": "bold italic underline"
+                    }
+                },
+            ]
+        }
+    },
+    "files.associations": {
+        "*.m": "matlab"
+    },
+    "git.enableSmartCommit": true,
+    "git.postCommitCommand": "push",
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk 🔃",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "latexmk (latexmkrc)",
+            "tools": [
+                "latexmk_rconly"
+            ]
+        },
+        {
+            "name": "latexmk (lualatex)",
+            "tools": [
+                "lualatexmk"
+            ]
+        },
+        {
+            "name": "Compile Rnw files",
+            "tools": [
+                "rnw2tex",
+                "latexmk"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-f",
+                "-pdf",
+                "-bibtex",
+                "-outdir=%OUTDIR%",
+                "%DOCFILE%"
+            ],
+            "command": "latexmk",
+            "env": {},
+            "name": "latexmk"
+        },
+        {
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "%DOC%"
+            ],
+            "command": "pdflatex",
+            "env": {},
+            "name": "pdflatex"
+        },
+        {
+            "args": [
+                "%DOCFILE%"
+            ],
+            "command": "bibtex",
+            "env": {},
+            "name": "bibtex"
+        }
+    ],
+    "latex-workshop.view.pdf.backgroundColor": "#24282f",
+    "latex-workshop.view.pdf.hand": true,
+    "latex-workshop.view.pdf.trim": 2,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "markdown.preview.fontSize": 16,
+    "matlab.matlabpath": "/Applications/MATLAB_R2019b.app/bin/maci64/MATLAB",
+    "matlab.mlintpath": "/Applications/MATLAB_R2019b.app/bin/maci64/mlint",
+    // "python.autoComplete.addBrackets": true,
+    "python.pythonPath": "/home/scao/anaconda3/bin/python",
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.extraPaths": [
+        "./",
+        "./sources",
+        "./src",
+        "./lib"
+    ],
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.showStartPage": false,
+    "sync.gist": "c06360e5b21df4ffd604f5bb7b785ae1",
+    "terminal.integrated.fontFamily": "Envy Code R VS",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.inheritEnv": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "window.autoDetectColorScheme": true,
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "workbench.colorCustomizations": {
+        "editor.foreground": "#bec7d8",
+        "editor.background": "#2b2f38",
+        "editorInfo.foreground": "#0394fc",
+        "editor.lineHighlightBackground": "#434e5c",
+        "editor.selectionBackground": "#135564",
+        "editor.selectionHighlightBackground": "#135564",
+        "editor.selectionHighlightBorder": "#088cad",
+        "editor.findMatchBackground": "#9e5533",
+        "editor.findMatchHighlightBackground": "#994c19",
+        "editor.findMatchBorder": "#d3d3d3",
+        "editorBracketMatch.background": "#743c85",
+        "editorBracketMatch.border": "#d2d439",
+        "editor.wordHighlightBackground": "#135564",
+        "editor.wordHighlightBorder": "#147e99",
+        "editor.wordHighlightStrongBackground": "#135564",
+        "editor.wordHighlightStrongBorder": "#1b8099",
+        "editorSuggestWidget.background": "#034154",
+        "editorSuggestWidget.selectedBackground": "#045b76",
+        "editorWarning.foreground": "#f88a0b",
+        // "editorWarning.background": "#4a1568", # if background then foreground won't show
+        "editorError.foreground": "#d65757",
+        "scrollbarSlider.activeBackground": "#51a6b1",
+        "scrollbarSlider.background": "#3b6ab1",
+        "scrollbarSlider.hoverBackground": "#6049b4",
+        "terminal.background": "#232b2e",
+        "terminal.foreground": "#22bd68",
+        "terminalCursor.background": "#A89984",
+        "terminalCursor.foreground": "#A89984",
+        "terminal.ansiBlack": "#1D2021",
+        "terminal.ansiBlue": "#478d9b",
+        "terminal.ansiBrightBlack": "#665C54",
+        "terminal.ansiBrightBlue": "#2fb0ca",
+        "terminal.ansiBrightCyan": "#8BA59B",
+        "terminal.ansiBrightGreen": "#7ea86f",
+        "terminal.ansiBrightMagenta": "#8F4673",
+        "terminal.ansiBrightRed": "#d14633",
+        "terminal.ansiBrightWhite": "#d8d0a2",
+        "terminal.ansiBrightYellow": "#d8a630",
+        "terminal.ansiCyan": "#8BA59B",
+        "terminal.ansiGreen": "#95C085",
+        "terminal.ansiMagenta": "#8F4673",
+        "terminal.ansiRed": "#FB543F",
+        "terminal.ansiWhite": "#A89984",
+        "terminal.ansiYellow": "#e2ae34"
+        // "terminal.background":"#2E2A31",
+        // "terminal.foreground":"#30b36b",
+        // "terminalCursor.background":"#BCBABE",
+        // "terminalCursor.foreground":"#BCBABE",
+        // "terminal.ansiBlack":"#2E2A31",
+        // "terminal.ansiBlue":"#958cec",
+        // "terminal.ansiBrightBlack":"#838085",
+        // "terminal.ansiBrightBlue":"#978ef0",
+        // "terminal.ansiBrightCyan":"#149BDA",
+        // "terminal.ansiBrightGreen":"#17AD98",
+        // "terminal.ansiBrightMagenta":"#BB60EA",
+        // "terminal.ansiBrightRed":"#D8137F",
+        // "terminal.ansiBrightWhite":"#F5F4F7",
+        // "terminal.ansiBrightYellow":"#DC8A0E",
+        // "terminal.ansiCyan":"#149BDA",
+        // "terminal.ansiGreen":"#17AD98",
+        // "terminal.ansiMagenta":"#BB60EA",
+        // "terminal.ansiRed":"#D8137F",
+        // "terminal.ansiWhite":"#BCBABE",
+        // "terminal.ansiYellow":"#DC8A0E"
+    },
+    "files.autoSave": "onFocusChange",
+    "workbench.editor.scrollToSwitchTabs": true,
+    "git.autofetch": true,
+    "editor.wordWrap": "on",
+    "latex-workshop.view.pdf.invertMode.hueRotate": 10,
+    "latex-workshop.view.pdf.invertMode.sepia": 0.1,
+    "latex-workshop.view.pdf.invertMode.grayscale": 0,
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "go",
+        "graphql",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pug",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yaml",
+        "yml"
+    ],
+    "python.languageServer": "Pylance",
+    "python.autoComplete.extraPaths": [
+        ".",
+        ".."
+    ],
+    "workbench.colorTheme": "Atom One Dark",
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "jupyter.interactiveWindowMode": "perFile",
+    "jupyter.alwaysTrustNotebooks": true,
+    "jupyter.experiments.optInto": [
+        "CustomEditor"
+    ],
+    "window.zoomLevel": 1,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "python.defaultInterpreterPath": "python3",
+    "gitlens.hovers.currentLine.changes": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "ltex.java.forceTrySystemWide": true,
+    "tabnine.experimentalAutoImports": true,
+    "gitlens.currentLine.enabled": false,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.titleBarStyle": "native",
+    "latex-workshop.view.pdf.invert": 0.2,
+    "workbench.editor.untitled.hint": "hidden",
+}
